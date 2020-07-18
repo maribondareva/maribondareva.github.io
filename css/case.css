@@ -1,0 +1,68 @@
+.case-body{
+	font-family: 'Montserrat', sans-serif;
+}
+.case-body .case-box{
+	max-width: 900px;
+}
+.case-body .case-box .picture{
+	width: 100%;
+}
+.case-body h1{
+	font-family: 'EB Garamond', serif;
+	margin: 30px 0;
+	font-weight: 700;
+}
+.case-body .case-block{
+	margin: 30px 0;
+}
+.case-body .paragraph, .result{
+	margin: 18px 0;
+}
+.picture-description{
+	background-color: #eee;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	margin-top: 10px;
+	padding: 10px;
+}
+.picture-description p{
+	margin-bottom: 0;
+}
+.case-body h2{
+	font-size: 34px;
+	font-family: 'EB Garamond', serif;
+	margin: 24px 0;
+	font-weight: 700;
+}
+.case-body h3{
+	font-size: 26px;
+	font-family: 'EB Garamond', serif;
+	margin: 20px 0;
+	font-weight: 700;
+}
+.case-body .tab{
+	margin-left: 50px;
+}
+.case-body li{
+	margin-top: 10px;
+}
+.case-body ul{
+	margin-left: 30px;
+	list-style-type: circle;
+}
+.case-tags{
+	max-width: 700px;
+}
+.case-tags .tag{
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 3px;
+	padding: 2px 6px;
+	margin-top: 40px;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+.case-tags .tag:hover{
+	color: #fff;
+	background-color: #007bff;
+}
