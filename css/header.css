@@ -1,0 +1,96 @@
+.header{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 16px;
+}
+.header-flex {
+	display: flex;
+	align-items: center;
+}
+.header .portrait{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.header .portrait img{
+	width: 60px;
+	height: auto;
+}
+.navigation-box{
+	margin-left: 20px;
+	display: inline-block;
+	height: 57px;
+}
+.navigation-box .groups .name{
+	display: inline-block;
+	font-weight: 500;
+	margin-bottom: 0px;
+	margin-right: 20px;
+}
+.navigation-box .groups{
+	margin-bottom: 3px;
+}
+.navigation-box .groups a{
+	margin-right: 8px;
+}
+.navigation-box .a-box{
+	transition: .5s;
+	display: inline-block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.navigation-box .a-box:hover{
+	color: red;
+	border-bottom: 1px solid red;
+}
+.navigation-box .tags a{
+	margin-right: 6px;
+	height: 15px;
+}
+.header hr{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1px;
+}
+
+@media (max-width: 514px){
+	.header-flex {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navigation-box{
+		height: auto;
+	}
+	.navigation-box .groups, .tags{
+		text-align: center;
+	}
+	.navigation-box .tags{
+		margin-top: 10px;
+	}
+	.navigation-box .groups .name{
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 2px;
+	}
+	.header .portrait{
+		width: 70px;
+		height: 70px;
+	}
+	.header .portrait img{
+		width: 70px;
+	}
+	.header hr{
+		margin-top: 16px;
+	}
+}
+@media (max-width: 380px){
+	.header .portrait{
+		width: 60px;
+		height: 60px;
+	}
+}
+@media screen and (max-width: 770px) and (min-width: 515px){
+	.header hr{
+		margin-top: 20px;
+	}
+}
