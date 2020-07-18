@@ -1,0 +1,16 @@
+.text p{
+	max-width: 70%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+}
+@media screen and (max-width: 900px) and (min-width: 701px){
+	.text p{
+		max-width: 85%;
+	}
+}
+@media screen and (max-width: 700px){
+	.text p{
+		max-width: 100%;
+	}
+}
